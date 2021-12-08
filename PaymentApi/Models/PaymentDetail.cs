@@ -18,7 +18,7 @@ namespace PaymentApi.Models
         public string CardNumber { get; set; }
         [Column(TypeName = "nvarchar(5)")]
         public string ExpirationDate { get; set; }
-        [Column(TypeName = "nvarchar(3)")]
+        [Column(TypeName = "nvarchar(5)")]
         public string SecurityCode { get; set; }
     }
 }
